@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item" onclick="window.location.href='index.html'">
+            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+          </li>
+          <li class="nav-item" onclick="window.location.href='index.html'">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item" onclick="window.location.href='index.html'">
+            <a class="nav-link" href="#product">Sản phẩm</a>
+          </li>
+          <li class="nav-item" onclick="window.location.href='index.html'">
+            <a class="nav-link" href="#contact">Liên hệ</a>
+          </li>
+          <li class="nav-item" onclick="window.location.href='index.html'">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+         
+                  
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-3" type="search" placeholder="Tìm kiếm" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- detail product -->
+    
+    <section id="prodetails" class="section-p1 " >
+      <div class="single-pro-image  col-md-3 py-3 py-md-0">
+        <img src="./images/Decaf caffee.png" width="100%" id="MainImg" alt="">        
+      </div>
+      <div class="single-pro-details  col-md-3 py-3 py-md-0 ">
+        <h5 style="color: brown;">Cà phê rang xay</h5>
+        <h1>Cà phê Decaf</h1>
+        <h2 style="color: red;">400.000đ</h2>
+        <h7 class="text-decoration-line-through">500.000đ</h7>
+        <select name="" id="">
+          <option value="">Size</option>
+          <option value="">1000g</option>
+          <option value="">500g</option>
+        </select>
+        <div class="proinfor d-flex flex-column gap-2">
+           <h6>Tình trạng hàng : <span style="color: green;">còn hàng</span></h6> 
+           <h6>Hotsale từ ngày 21/06 - 24/06 : Giảm giá chỉ còn <span style="color: red;">400,000đ</span> (số lượng có hạn, áp dụng cùng ưu đãi Smember).
+            <br>
+            <br>Ngày cuối hotsale chỉ áp dụng thanh toán online 100% hoặc thanh toán trực tiếp tại cửa hàng.</h6>
+           
+           
+        </div>
+        <input type="number" value="1">
+        <button class="normal">Thêm vào giỏ</button>        
+               
+      </div>
+    </section>
+    <h4 style="margin: 2%;">Chi tiết sản phẩm</h4>
+        <div class="detail">
+          <span>Mô tả Sản phẩm:
+            <br>Cà phê Decaf là sản phẩm dành cho những người yêu thích hương vị cà phê nhưng muốn giảm lượng caffeine. Được chế biến từ những hạt cà phê chất lượng cao, quy trình loại bỏ caffeine giúp giữ lại hương vị tự nhiên mà không làm mất đi sự thưởng thức của cà phê.
+            
+            <br>Đặc điểm nổi bật:
+            
+            <br>Hương vị: Tự nhiên, không có vị đắng của caffeine.
+            <br>Hàm lượng Caffeine: Đã loại bỏ hoàn toàn hoặc giảm đáng kể lượng caffeine so với cà phê thông thường.
+            <br>Phương pháp loại bỏ caffeine: Thông thường là qua quá trình xử lý bằng nước hoặc dung môi hòa tan.
+            <br>Mức rang: Đa dạng từ nhẹ đến đậm, tùy theo sở thích và thương hiệu cà phê.
+            <br>Pha chế: Thích hợp để pha espresso, phin, pha cà phê lạnh hoặc các loại đồ uống cà phê khác.
+            <br>Thích hợp cho mọi thời điểm trong ngày: Đặc biệt là vào buổi tối hoặc khi không muốn bị ảnh hưởng của caffeine.
+            <br>Xuất xứ: Sản phẩm có thể được chế biến từ các loại cà phê Arabica hoặc Robusta từ các vùng trồng cà phê nổi tiếng.
+            
+            <br>Đóng gói: Thường được đóng gói trong túi hút chân không để bảo quản lâu dài hương vị.
+            
+            <br>Bảo quản: Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp để giữ được hương vị và mùi thơm của sản phẩm.
+            
+            <br>Sử dụng: Thưởng thức mọi lúc trong ngày mà không cần lo lắng về caffeine, đặc biệt phù hợp cho những người muốn giảm lượng caffeine hàng ngày nhưng vẫn thưởng thức hương vị cà phê.</span>
+        </div> 
+
+  <!-- detail product -->
+</footer>
+<!-- footer -->
+
+<a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+  
+</html>
